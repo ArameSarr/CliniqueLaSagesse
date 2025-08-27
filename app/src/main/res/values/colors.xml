@@ -1,0 +1,45 @@
+<resources>
+    <color name="primary_color">#2196F3</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="logout_color">#F44336</color>
+    <!-- Couleurs de jour -->
+    <color name="app_day_color_primary">#6200EE</color>
+    <color name="app_day_color_primary_variant">#3700B3</color>
+    <color name="app_day_color_on_primary">#FFFFFF</color>
+    <color name="app_day_color_secondary">#03DAC5</color>
+    <color name="app_day_color_secondary_variant">#018786</color>
+    <color name="app_day_color_on_secondary">#000000</color>
+    <color name="app_day_color_background">#FFFFFF</color>
+    <color name="app_day_color_on_background">#000000</color>
+    <color name="app_day_color_surface">#FFFFFF</color>
+    <color name="app_day_color_on_surface">#000000</color>
+    <color name="app_day_color_error">#B00020</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="app_day_color_on_error">#FFFFFF</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="status_confirmed_background">#A5D6A7</color> <!-- Exemple de couleur -->
+    <color name="status_cancelled_background">#EF5350</color> <!-- Exemple de couleur -->
+    <color name="statut_complete_background">#64B5F6</color> <!-- Exemple de couleur -->
+    <color name="status_noshow_background">#FFEB3B</color> <!-- Exemple de couleur -->
+    <color name="status_pending_background">#FF9800</color> <!-- Exemple de couleur -->
+    <color name="status_text_on_light_background">#FFFFFF</color> <!-- Exemple de couleur -->
+    <color name="status_text_on_colored_background">#000000</color> <!-- Exemple de couleur -->
+
+        <!-- Couleurs de nuit -->
+    <color name="app_night_color_primary">#BB86FC</color>
+    <color name="app_night_color_primary_variant">#3700B3</color>
+    <color name="app_night_color_on_primary">#000000</color>
+    <color name="app_night_color_secondary">#03DAC5</color>
+    <color name="app_night_color_secondary_variant">#018786</color>
+
+    <color name="app_night_color_on_secondary">#000000</color>
+    <color name="app_night_color_background">#121212</color>
+    <color name="app_night_color_on_background">#FFFFFF</color>
+    <color name="app_night_color_surface">#1E1E1E</color>
+    <color name="app_night_color_on_surface">#FFFFFF</color>
+    <color name="app_night_color_error">#CF6679</color>
+    <color name="app_night_color_on_error">#000000</color>
+</resources>

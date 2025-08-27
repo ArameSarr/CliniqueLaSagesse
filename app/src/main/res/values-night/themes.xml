@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème Nuit -->
+    <style name="Theme.CliniqueLaSagesse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/app_night_color_primary</item>
+        <item name="colorPrimaryVariant">@color/app_night_color_primary_variant</item>
+        <item name="colorOnPrimary">@color/app_night_color_on_primary</item>
+        <item name="colorSecondary">@color/app_night_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/app_night_color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/app_night_color_on_secondary</item>
+        <item name="android:colorBackground">@color/app_night_color_background</item>
+        <item name="colorOnBackground">@color/app_night_color_on_background</item>
+        <item name="colorSurface">@color/app_night_color_surface</item>
+        <item name="colorOnSurface">@color/app_night_color_on_surface</item>
+        <item name="colorError">@color/app_night_color_error</item>
+        <item name="colorOnError">@color/app_night_color_on_error</item>
+    </style>
+</resources>

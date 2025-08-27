@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ce fichier peut rester vide -->
+    <item name="recycler_view_dossiers" type="id" />
+</resources>

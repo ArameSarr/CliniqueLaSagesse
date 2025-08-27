@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Message de bienvenue -->
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Nom"
+            android:textSize="24sp"
+            android:textColor="?attr/colorOnBackground"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Statistiques générales -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_statistiques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Statistiques"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_statistiques"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total RDV: 0 | Terminés: 0"
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurface" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Sélecteur de date -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_select_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp"
+            android:foreground="?attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tv_date_selectionnee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aujourd'hui"
+                    android:textSize="18sp"
+                    android:textColor="?attr/colorPrimary"
+                    android:textStyle="bold"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/tv_nombre_rdv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 rendez-vous"
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:layout_marginTop="8dp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Rendez-vous du jour -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rendez-vous du jour"
+            android:textSize="18sp"
+            android:textColor="?attr/colorOnBackground"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_rdv_aujourd_hui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

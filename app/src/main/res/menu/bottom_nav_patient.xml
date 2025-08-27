@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_accueil"
+        android:title="Accueil"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/nav_dossier"
+        android:title="Mon Dossier"
+        android:icon="@drawable/ic_folder_medical" />
+
+    <item
+        android:id="@+id/nav_profil"
+        android:title="Profil"
+        android:icon="@drawable/ic_person" />
+
+</menu>

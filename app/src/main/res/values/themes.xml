@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème de base (Jour) -->
+    <style name="Theme.CliniqueLaSagesse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/app_day_color_primary</item>
+        <item name="colorPrimaryVariant">@color/app_day_color_primary_variant</item>
+        <item name="colorOnPrimary">@color/app_day_color_on_primary</item>
+        <item name="colorSecondary">@color/app_day_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/app_day_color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/app_day_color_on_secondary</item>
+        <item name="android:colorBackground">@color/app_day_color_background</item>
+        <item name="colorOnBackground">@color/app_day_color_on_background</item>
+        <item name="colorSurface">@color/app_day_color_surface</item>
+        <item name="colorOnSurface">@color/app_day_color_on_surface</item>
+        <item name="colorError">@color/app_day_color_error</item>
+        <item name="colorOnError">@color/app_day_color_on_error</item>
+        <item name="colorBackground">@color/app_day_color_background</item>
+
+
+        <!-- Ajout des attributs manquants -->
+        <item name="android:actionBarSize">56dp</item> <!-- ou une autre valeur selon vos besoins -->
+        <item name="android:selectableItemBackground">@android:color/darker_gray</item> <!-- ou une autre couleur -->
+    </style>
+</resources>
